@@ -130,7 +130,18 @@ for A in range(1,1000):
         break
 ```
 
+### 16
 
+![image](https://user-images.githubusercontent.com/70198995/176998484-c26cd4e1-ae70-4578-9139-9383701a8755.png)
+
+```python
+def f(n):
+    if n < 3: return 1
+    if n % 2 == 0: return f(n-1) + n - 1
+    return f(n-2) + 2*n - 2
+    
+print(f(34))
+```
 
 
 
