@@ -24,4 +24,27 @@ https://github.com/egeinf/KIM25012688/raw/main/3.xlsx
 
 ![image](https://user-images.githubusercontent.com/70198995/176993777-0f7f94eb-44f3-4c53-8656-00e2f4213d6f.png)
 
+![image](https://user-images.githubusercontent.com/70198995/176994667-a9a3e5dd-d189-410e-9d0b-8ad8a582e4fd.png)
+
+```python
+def f(x):
+    x = int(x)
+    res = 0
+    while x:
+        res += x % 10
+        x //= 10
+    return res
+for N in range(1,9):
+    res = N
+    N = bin(N)[2:]
+    if f(N) % 2 == 0:
+        N = N + '0'
+        N = '10' + N[2:]
+    elif f(N) % 2 != 0:
+        N = N + '1'
+        N = '11' + N[2:]
+    print(res, N)
+# > 10000 (8)
+
+```
 ![image](https://user-images.githubusercontent.com/70198995/176993030-42fe9b20-5d52-45f6-b0bc-9504579fd13b.png)
