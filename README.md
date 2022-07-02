@@ -69,4 +69,17 @@ i = I // k
 print(2**i)
 ```
 
+Определите количество пятизначных чисел, записанных в восьмеричной системе счисления, в записи которых ровно одна цифра 6, при этом никакая нечётная цифра не стоит рядом с цифрой 6.
+
+```
+k = 0
+for x in range(1,99999):
+    x8 = oct(x)[2:]
+    if x8.count('6') == 1 and len(x8) == 5:
+        if ('16' not in x8) and ('36' not in x8) and ('56' not in x8) and ('76' not in x8) and ('96' not in x8):
+            if ('61' not in x8) and ('63' not in x8) and ('65' not in x8) and ('67' not in x8) and ('69' not in x8):
+                k += 1
+                print(x, x8, k)
+```
+
 ![image](https://user-images.githubusercontent.com/70198995/176993030-42fe9b20-5d52-45f6-b0bc-9504579fd13b.png)
