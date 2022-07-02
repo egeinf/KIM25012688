@@ -91,6 +91,16 @@ for x in range(1,99999):
 ### 12
 ![image](https://user-images.githubusercontent.com/70198995/176997312-637c7e7a-30f7-4ed0-9e2a-7dcb4a18054e.png)
 
+```python
+s = '9' * 96
+while '22222' in s or '9999' in s:
+    if '22222' in s:
+        s = s.replace('22222', '99', 1)
+    else:
+        s = s.replace('9999', '2', 1)
+print(s)
+```
+
 ### 14
 
 ![image](https://user-images.githubusercontent.com/70198995/176998194-f45f12d5-c4cb-4914-b4a2-c83b78a9014a.png)
@@ -102,16 +112,6 @@ while x:
     res = res + str(x % 5)
     x //= 5
 print(res.count('0'))
-```
-
-```python
-s = '9' * 96
-while '22222' in s or '9999' in s:
-    if '22222' in s:
-        s = s.replace('22222', '99', 1)
-    else:
-        s = s.replace('9999', '2', 1)
-print(s)
 ```
 
 
