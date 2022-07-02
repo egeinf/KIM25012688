@@ -60,5 +60,13 @@ for s in range(1000):
         break
 ```
 
+![image](https://user-images.githubusercontent.com/70198995/176994999-1f10ea1c-5225-4096-b938-1fd1f91b56f1.png)
+
+```python
+k = 640 * 256
+I = 170 * 1024 * 8 * 1.35
+i = I // k
+print(2**i)
+```
 
 ![image](https://user-images.githubusercontent.com/70198995/176993030-42fe9b20-5d52-45f6-b0bc-9504579fd13b.png)
