@@ -89,3 +89,6 @@ for x in range(1,99999):
 
 ### 11
 ![image](https://user-images.githubusercontent.com/70198995/176997278-5566ada6-9908-4d85-add3-d6eea9552cfe.png)
+
+### 12
+![image](https://user-images.githubusercontent.com/70198995/176997312-637c7e7a-30f7-4ed0-9e2a-7dcb4a18054e.png)
