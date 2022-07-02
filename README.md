@@ -18,4 +18,7 @@ for x in 0,1:
 # X 0 X X
 ```
 
+![image](https://user-images.githubusercontent.com/70198995/176993622-909204a5-3808-495c-91d3-93fa706c99cb.png)
+
+
 ![image](https://user-images.githubusercontent.com/70198995/176993030-42fe9b20-5d52-45f6-b0bc-9504579fd13b.png)
