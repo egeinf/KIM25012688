@@ -91,6 +91,19 @@ for x in range(1,99999):
 ### 12
 ![image](https://user-images.githubusercontent.com/70198995/176997312-637c7e7a-30f7-4ed0-9e2a-7dcb4a18054e.png)
 
+### 14
+
+![image](https://user-images.githubusercontent.com/70198995/176998194-f45f12d5-c4cb-4914-b4a2-c83b78a9014a.png)
+
+```python
+x = 4 * 625 ** 1920 + 4 * 125 ** 1930 - 4 * 25 ** 1940 - 3 * 5 ** 1950 - 1960
+res = ''
+while x:
+    res = res + str(x % 5)
+    x //= 5
+print(res.count('0'))
+```
+
 ```python
 s = '9' * 96
 while '22222' in s or '9999' in s:
