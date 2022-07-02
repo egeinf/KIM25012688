@@ -143,7 +143,16 @@ def f(n):
 print(f(34))
 ```
 
+# 25
+![image](https://user-images.githubusercontent.com/70198995/176999557-8070a36a-591c-4af0-83ed-8f2fd99a6799.png)
 
+```python
+for x in range(12340, 12349999):
+    if x % 141 == 0:
+        x = str(x)
+        if x[0] == '1' and x[1] == '2' and x[2] == '3' and x[3] == '4' and x[-1] == '7':
+            print(x, int(x) / 141)
+```
 
 
 
