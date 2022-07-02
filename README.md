@@ -45,6 +45,20 @@ for N in range(1,9):
         N = '11' + N[2:]
     print(res, N)
 # > 10000 (8)
-
 ```
+# 6
+```python
+for s in range(1000):
+    res = s
+    s = (s-21) // 10
+    n = 1
+    while s >= 0:
+        n = n * 2
+        s = s - n
+    if n == 8:
+        print(res)
+        break
+```
+
+
 ![image](https://user-images.githubusercontent.com/70198995/176993030-42fe9b20-5d52-45f6-b0bc-9504579fd13b.png)
