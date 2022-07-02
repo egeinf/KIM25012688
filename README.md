@@ -85,10 +85,34 @@ for x in range(1,99999):
                 print(x, x8, k)
 ```
 
-![image](https://user-images.githubusercontent.com/70198995/176993030-42fe9b20-5d52-45f6-b0bc-9504579fd13b.png)
-
 ### 11
 ![image](https://user-images.githubusercontent.com/70198995/176997278-5566ada6-9908-4d85-add3-d6eea9552cfe.png)
 
 ### 12
 ![image](https://user-images.githubusercontent.com/70198995/176997312-637c7e7a-30f7-4ed0-9e2a-7dcb4a18054e.png)
+
+```python
+s = '9' * 96
+while '22222' in s or '9999' in s:
+    if '22222' in s:
+        s = s.replace('22222', '99', 1)
+    else:
+        s = s.replace('9999', '2', 1)
+print(s)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+![image](https://user-images.githubusercontent.com/70198995/176993030-42fe9b20-5d52-45f6-b0bc-9504579fd13b.png)
