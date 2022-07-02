@@ -114,7 +114,21 @@ while x:
 print(res.count('0'))
 ```
 
+### 15
 
+![image](https://user-images.githubusercontent.com/70198995/176998423-a4ee6fa6-6c1b-4821-be43-c3f626a877de.png)
+
+```python
+for A in range(1,1000):
+    flag = 1
+    for x in range(1,1000):
+        F = ( (x % 2 == 0) <= (x % 3 != 0) ) or (x+A >= 80)
+        if F == 0:
+            flag = 0
+    if flag == 1:
+        print(A)
+        break
+```
 
 
 
